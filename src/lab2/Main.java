@@ -109,8 +109,9 @@ public class Main {
             long min = row[0];
 
             for (long num : row) {
-                if (num < min)
+                if (num < min) {
                     min = num;
+                }
             }
 
             sum += min;

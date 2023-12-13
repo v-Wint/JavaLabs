@@ -14,7 +14,7 @@ public class Main {
 
         final int C = 1;
 
-        char a = 1;
+        char a = 0;
         char n = 7;
         char b = 2;
         char m = 5;
@@ -29,7 +29,7 @@ public class Main {
 
         for (char i = a; i <= n; i++) {
             for (char j = b; j <= m; j++) {
-                sum += (double)i % j / (i + C);
+                sum += (double) i % j / (i + C);
             }
         }
 
